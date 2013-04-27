@@ -266,10 +266,6 @@ elRTE.prototype.ui.prototype.buttons.image = function(rte, name) {
 					minWidth  : 550,
 					position  : 'center',
 					title     : rte.i18n('Image'),
-					resizable : false,
-					open      : function() {
-						$.fn.resizable && $(this).parents('.ui-dialog:first').resizable('option', 'alsoResize', '.elrte-image-preview');
-					}
 				}
 			},
 			dialog = new elDialogForm(opts),
