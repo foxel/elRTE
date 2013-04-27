@@ -264,7 +264,7 @@ elRTE.prototype.ui.prototype.buttons.image = function(rte, name) {
 					autoOpen  : false,
 					width     : 550,
 					minWidth  : 550,
-					position  : 'top',
+					position  : 'center',
 					title     : rte.i18n('Image'),
 					resizable : false,
 					open      : function() {
