@@ -96,7 +96,7 @@
 				submit : function(e, d) { e.stopPropagation(); e.preventDefault(); self.set(); d.close(); },
 				dialog : {
 					width    : 580,
-					position : 'top',
+					position : 'center',
 					title    : this.rte.i18n('Flash')
 				}
 			}
